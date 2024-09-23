@@ -21,4 +21,8 @@ print(dir(soup))
 # print(soup.get_text())
 
 #Pegar titulo
-print(soup.title())
+title = soup.find('title')
+print(title)
+
+div = soup.find('div')
+print(div)
